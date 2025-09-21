@@ -17,7 +17,7 @@ const mont = Montserrat({
 });
 
 export const metadata = {
-  title: "Child Aid",
+  title: "CareBridge",
   description: "",
   // icons: {
   //   icon: "/images/fav.png", // Default
