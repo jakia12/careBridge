@@ -108,7 +108,7 @@ export default function HeroSlider() {
                       className="default-btn"
                       data-animation="fade-in-bottom"
                       data-delay="2.5s"
-                      href="/donate"
+                      href="/causes"
                     >
                       Give Hope Today<span></span>
                       <i className="arrow_right"></i>
@@ -170,7 +170,7 @@ export default function HeroSlider() {
                       className="default-btn"
                       data-animation="fade-in-bottom"
                       data-delay="2.5s"
-                      href="/get-involved"
+                      href="/causes"
                     >
                       Start Making Change<span></span>
                       <i className="arrow_right"></i>
@@ -232,7 +232,7 @@ export default function HeroSlider() {
                       className="default-btn"
                       data-animation="fade-in-bottom"
                       data-delay="2.5s"
-                      href="/volunteer"
+                      href="/causes"
                     >
                       Join the Mission<span></span>
                       <i className="arrow_right"></i>

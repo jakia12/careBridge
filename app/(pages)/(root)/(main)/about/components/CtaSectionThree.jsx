@@ -21,7 +21,7 @@ export default function CtaSectionThree() {
           </div>
 
           {/* CTA Button */}
-          <Link href="/cause-single" className="default-btn">
+          <Link href="/causes" className="default-btn">
             Make a Donation <span></span>
           </Link>
         </div>

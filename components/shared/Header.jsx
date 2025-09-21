@@ -44,7 +44,7 @@ export default function Header() {
             </div>
             <Link
               className="default-btn d-none d-lg-inline-block"
-              href="/cause-single"
+              href="/causes"
             >
               Donate Now<span></span>
             </Link>
