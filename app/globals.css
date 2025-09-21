@@ -5212,6 +5212,9 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+  .testimonials-section.bg-grey.padding {
+    display: none;
+  }
   .primary-header-inner,
   .sticky-header .primary-header-inner {
     padding: 13px 12px;
