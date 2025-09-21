@@ -5215,6 +5215,15 @@ html {
   .testimonials-section.bg-grey.padding {
     display: none;
   }
+  .dl-slider .dl-caption.big {
+    white-space: nowrap;
+    letter-spacing: -1px;
+    margin-bottom: 34px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #fff !important;
+  }
   .primary-header-inner,
   .sticky-header .primary-header-inner {
     padding: 13px 12px;
