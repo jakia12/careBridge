@@ -5211,15 +5211,6 @@ html {
   right: 59px;
 }
 
-.dl-slider .dl-caption.big {
-  white-space: nowrap;
-  letter-spacing: -1px;
-  margin-bottom: 34px;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 68px;
-  color: #fff !important;
-}
 @media screen and (max-width: 768px) {
   .primary-header-inner,
   .sticky-header .primary-header-inner {
@@ -5244,5 +5235,14 @@ html {
     overflow: hidden;
     box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.1);
     height: auto;
+  }
+  .dl-slider .dl-caption.big {
+    white-space: nowrap;
+    letter-spacing: -1px;
+    margin-bottom: 34px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 68px;
+    color: #fff !important;
   }
 }
