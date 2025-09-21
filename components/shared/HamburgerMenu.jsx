@@ -11,7 +11,7 @@ const items = [
   { href: "/causes", label: "Causes", icon: "ti-heart" },
   { href: "/blog", label: "Blog", icon: "ti-pencil-alt" },
   { href: "/contact", label: "Contact", icon: "ti-email" },
-  { href: "/cause-single", label: "Donate Now", icon: "ti-gift" },
+  { href: "/causes", label: "Donate Now", icon: "ti-gift" },
 ];
 
 export default function HamburgerMenu() {
