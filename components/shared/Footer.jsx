@@ -5,33 +5,36 @@ export default function Footer() {
         <div className="container">
           <div className="widget-wrap row">
             {/* Logo + About */}
-            <div className="col-lg-3 col-md-6 sm-padding sm-padding">
+            <div className="col-lg-3 col-md-6 sm-padding">
               <div className="widget-box">
-                <img src="/images/logo-light.png" alt="img" />
+                <img src="/images/logo-light.png" alt="CareBridge Logo" />
                 <p>
-                  Charitian non-profit organization dedicated to creating
-                  lasting impact through clean water, free education,
-                  healthcare, and community development.
+                  CareBridge is a non-profit organization committed to bridging
+                  gaps in healthcare, clean water, education, and relief for
+                  vulnerable communities around the world.
                 </p>
                 <ul className="widget-social">
                   <li className="facebook">
-                    <a href="#">
+                    <a href="https://facebook.com/carebridge" target="_blank">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li className="instagram">
-                    <a href="#">
+                    <a href="https://instagram.com/carebridge" target="_blank">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li className="twitter">
-                    <a href="#">
+                    <a href="https://twitter.com/carebridge" target="_blank">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
-                  <li className="pinterest">
-                    <a href="#">
-                      <i className="fab fa-pinterest"></i>
+                  <li className="linkedin">
+                    <a
+                      href="https://linkedin.com/company/carebridge"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                 </ul>
@@ -39,49 +42,49 @@ export default function Footer() {
             </div>
 
             {/* Latest Posts */}
-            <div className="col-lg-3 col-md-6 sm-padding sm-padding">
+            <div className="col-lg-3 col-md-6 sm-padding">
               <div className="widget-box">
                 <div className="widget-title">
-                  <h3>Latest Posts</h3>
+                  <h3>Latest Updates</h3>
                 </div>
                 <ul className="widget-item">
                   <li>
-                    <a href="#">
-                      Placing Children at The Heart Of Social Accountability
+                    <a href="/blog/clean-water-kenya">
+                      Clean Water Brings Hope to Rural Kenya
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      Cash Transfers in Africa Evidence On The Impact
+                    <a href="/blog/mobile-healthcare-units">
+                      Launching Mobile Healthcare Units in India
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      Children in Aleppo Go Back To a Safe Learning Environment
+                    <a href="/blog/education-support-syria">
+                      Education Support for Displaced Children in Syria
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* About Us */}
-            <div className="col-lg-3 col-md-6 sm-padding sm-padding">
+            {/* Quick Links */}
+            <div className="col-lg-3 col-md-6 sm-padding">
               <div className="widget-box pl-50">
                 <div className="widget-title">
-                  <h3>All Links</h3>
+                  <h3>Quick Links</h3>
                 </div>
                 <ul className="widget-item">
                   <li>
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/about">About</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li>
                     <a href="/events">Events</a>
                   </li>
                   <li>
-                    <a href="/causes">Causes</a>
+                    <a href="/causes">Our Causes</a>
                   </li>
                   <li>
                     <a href="/blog">Blog</a>
@@ -94,33 +97,38 @@ export default function Footer() {
             </div>
 
             {/* Headquarters */}
-            <div className="col-lg-3 col-md-6 sm-padding sm-padding">
+            <div className="col-lg-3 col-md-6 sm-padding">
               <div className="widget-box">
                 <div className="widget-title">
-                  <h3>Headquaters</h3>
+                  <h3>Headquarters</h3>
                 </div>
                 <ul className="widget-contact">
                   <li>
                     <i className="fas fa-map-marker-alt"></i>
-                    <span>962 Fifth Avenue, 3rd Floor New York, NY10022</span>
+                    <span>
+                      1250 Avenue of the Americas, 12th Floor, New York, NY
+                      10020
+                    </span>
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>
                     <span>
-                      <a href="mailto:info@charitian.org">info@charitian.org</a>
+                      <a href="mailto:info@carebridge.org">
+                        info@carebridge.org
+                      </a>
                     </span>
                   </li>
                   <li>
                     <i className="fas fa-phone"></i>
-                    <span>(+123) 456 789 101</span>
+                    <span>+1 (212) 555-0199</span>
                   </li>
                   <li>
                     <i className="fas fa-fax"></i>
-                    <span>817-383-3550</span>
+                    <span>+1 (212) 555-0102</span>
                   </li>
                   <li>
                     <i className="fas fa-clock"></i>
-                    <span>Mon - Sat: 9:00 - 18:00</span>
+                    <span>Mon - Fri: 9:00 AM - 6:00 PM (EST)</span>
                   </li>
                 </ul>
               </div>
@@ -133,8 +141,8 @@ export default function Footer() {
       <footer className="footer-section text-center">
         <div className="container">
           <p>
-            © Copyright <span id="currentYear"></span> CareBridge - All Rights
-            Reserved
+            © <span id="currentYear"></span> CareBridge — Building Bridges of
+            Hope. All Rights Reserved.
           </p>
         </div>
       </footer>
