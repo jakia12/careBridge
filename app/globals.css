@@ -5196,6 +5196,11 @@ body,
 html {
   overflow-x: hidden !important;
 }
+.service-box:hover .service-content h3,
+.service-box:hover .service-content p,
+.service-box:hover .service-icon i {
+  color: #006266;
+}
 @media screen and (max-width: 768px) {
   .primary-header-inner,
   .sticky-header .primary-header-inner {
