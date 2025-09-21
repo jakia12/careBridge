@@ -5245,4 +5245,12 @@ html {
     line-height: 68px;
     color: #fff !important;
   }
+  .bm-burger-button {
+    z-index: 1001;
+    width: 28px;
+    height: 22px;
+    position: absolute;
+    top: 33px;
+    right: 59px;
+  }
 }
