@@ -25,7 +25,7 @@ export default function AboutSection() {
               </p>
             </div>
             {/* Button */}
-            <Link href="/cause-single" className="default-btn">
+            <Link href="/causes" className="default-btn">
               Make a donation <span></span>
             </Link>
           </div>

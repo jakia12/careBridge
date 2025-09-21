@@ -10,7 +10,7 @@ const defaultData = {
   ],
   paragraph:
     "Water is life — yet for millions of families, it remains out of reach. Children are forced to walk miles every day just for a bucket of unsafe water, missing school and risking their health. Together, we can change this. Every drop you give brings hope, health, and a brighter future to communities in need.",
-  ctaHref: "cause-single.html",
+  ctaHref: "causes",
   ctaText: "Donate Now",
 };
 
