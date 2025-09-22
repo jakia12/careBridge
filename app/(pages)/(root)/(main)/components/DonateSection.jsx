@@ -53,7 +53,7 @@ export default function DonateSection() {
         <div className="section-heading mb-40 text-center">
           <span className="sub-heading">Recent Campaigns</span>
           <h2>
-            Fundraising For The People And <br /> Causes You Care About
+            Fundraising For The People <br />
           </h2>
         </div>
 

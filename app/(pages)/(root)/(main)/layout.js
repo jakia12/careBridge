@@ -19,11 +19,11 @@ const mont = Montserrat({
 export const metadata = {
   title: "CareBridge",
   description: "",
-  // icons: {
-  //   icon: "/images/fav.png", // Default
-  //   shortcut: "/images/fav.png",
-  //   apple: "/images/fav.png",
-  // },
+  icons: {
+    icon: "/images/4.png",
+    shortcut: "/images/4.png",
+    apple: "/images/4.png",
+  },
   // openGraph: {
   //   title: "Glamora – Beauty & Wellness",
   //   description: "Indulge in premium beauty, spa, and salon experiences.",

@@ -41,7 +41,8 @@ export default function Blog() {
         <div className="section-heading mb-40 text-center">
           <span className="sub-heading">Latest Stories</span>
           <h2>
-            Some Of Our <br /> Recent Stories
+            Recent Stories
+            <br />
           </h2>
         </div>
 
